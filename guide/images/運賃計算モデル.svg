@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" viewBox="-470 13 1477 952" width="1477" height="952">
+  <defs>
+    <font-face font-family="Hiragino Kaku Gothic ProN" font-size="10" panose-1="2 11 3 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="545" cap-height="766" ascent="880.0018" descent="-120.00024" font-weight="300">
+      <font-face-src>
+        <font-face-name name="HiraKakuProN-W3"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#0096ff">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Hiragino Sans" font-size="10" panose-1="2 11 3 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="545" cap-height="766" ascent="880.0018" descent="-120.00024" font-weight="300">
+      <font-face-src>
+        <font-face-name name="HiraginoSans-W3"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-9 -4 10 8" markerWidth="10" markerHeight="8" color="#0096ff">
+      <g>
+        <path d="M -8 0 L 0 3 L 0 -3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Hiragino Sans" font-size="12" panose-1="2 11 3 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="545" cap-height="766" ascent="880.0018" descent="-120.00024" font-weight="300">
+      <font-face-src>
+        <font-face-name name="HiraginoSans-W3"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="YuGothic" font-size="30" panose-1="2 11 5 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="545" cap-height="772" ascent="880.0018" descent="-120.00024" font-weight="500">
+      <font-face-src>
+        <font-face-name name="YuGo-Medium"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_3" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#0096ff">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2021-09-10 12:52:16 +0000</metadata>
+  <g id="キャンバス______1" stroke="none" stroke-dasharray="none" fill-opacity="1" stroke-opacity="1" fill="none">
+    <title>キャンバス 1</title>
+    <g id="キャンバス______1_レイヤー_1">
+      <title>レイヤー 1</title>
+      <g id="Graphic_87">
+        <path d="M 398.5 29.5 L 1006 29.5 L 1006 145.27722 L 398.5 145.27722 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_25">
+        <path d="M -310 282.25005 L -20 282.25005 C -15.581722 282.25005 -12 285.83177 -12 290.25005 L -12 490.25005 C -12 494.6683 -15.581722 498.25005 -20 498.25005 L -310 498.25005 C -314.41828 498.25005 -318 494.6683 -318 490.25005 L -318 290.25005 C -318 285.83177 -314.41828 282.25005 -310 282.25005 Z" fill="#c0c0ff"/>
+        <path d="M -310 282.25005 L -20 282.25005 C -15.581722 282.25005 -12 285.83177 -12 290.25005 L -12 490.25005 C -12 494.6683 -15.581722 498.25005 -20 498.25005 L -310 498.25005 C -314.41828 498.25005 -318 494.6683 -318 490.25005 L -318 290.25005 C -318 285.83177 -314.41828 282.25005 -310 282.25005 Z" stroke="#521b93" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-313 287.25005)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">普通運賃</tspan>
+        </text>
+      </g>
+      <g id="Graphic_43">
+        <path d="M 45 328 L 335 328 C 339.41828 328 343 331.58172 343 336 L 343 586 C 343 590.4183 339.41828 594 335 594 L 45 594 C 40.58172 594 37 590.4183 37 586 L 37 336 C 37 331.58172 40.58172 328 45 328 Z" fill="#dead26"/>
+        <path d="M 45 328 L 335 328 C 339.41828 328 343 331.58172 343 336 L 343 586 C 343 590.4183 339.41828 594 335 594 L 45 594 C 40.58172 594 37 590.4183 37 586 L 37 336 C 37 331.58172 40.58172 328 45 328 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(42 333)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">団体割引 </tspan>
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="249"> （NumberOfPax により、いずれかに決まる）</tspan>
+        </text>
+      </g>
+      <g id="Graphic_2">
+        <path d="M -236.5577 319 L -107.05769 319 C -102.63941 319 -99.05769 322.58172 -99.05769 327 L -99.05769 345 C -99.05769 349.41828 -102.63941 353 -107.05769 353 L -236.5577 353 C -240.97597 353 -244.5577 349.41828 -244.5577 345 L -244.5577 327 C -244.5577 322.58172 -240.97597 319 -236.5577 319 Z" fill="#8080ff"/>
+        <path d="M -236.5577 319 L -107.05769 319 C -102.63941 319 -99.05769 322.58172 -99.05769 327 L -99.05769 345 C -99.05769 349.41828 -102.63941 353 -107.05769 353 L -236.5577 353 C -240.97597 353 -244.5577 349.41828 -244.5577 345 L -244.5577 327 C -244.5577 322.58172 -240.97597 319 -236.5577 319 Z" stroke="#521b93" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-239.5577 328.5)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">大人片道基本運賃</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <path d="M 840.5 194.5 L 984.5 194.5 C 988.9183 194.5 992.5 198.08172 992.5 202.5 L 992.5 220.5 C 992.5 224.91828 988.9183 228.5 984.5 228.5 L 840.5 228.5 C 836.0817 228.5 832.5 224.91828 832.5 220.5 L 832.5 202.5 C 832.5 198.08172 836.0817 194.5 840.5 194.5 Z" fill="#3a8eed"/>
+        <path d="M 840.5 194.5 L 984.5 194.5 C 988.9183 194.5 992.5 198.08172 992.5 202.5 L 992.5 220.5 C 992.5 224.91828 988.9183 228.5 984.5 228.5 L 840.5 228.5 C 836.0817 228.5 832.5 224.91828 832.5 220.5 L 832.5 202.5 C 832.5 198.08172 836.0817 194.5 840.5 194.5 Z" stroke="#00cbff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(837.5 204)" fill="white">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="white" x="0" y="9">Route （区間）</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <path d="M 840.5 293.5 L 984.5 293.5 C 988.9183 293.5 992.5 297.08172 992.5 301.5 L 992.5 319.5 C 992.5 323.91828 988.9183 327.5 984.5 327.5 L 840.5 327.5 C 836.0817 327.5 832.5 323.91828 832.5 319.5 L 832.5 301.5 C 832.5 297.08172 836.0817 293.5 840.5 293.5 Z" fill="#3a8eed"/>
+        <path d="M 840.5 293.5 L 984.5 293.5 C 988.9183 293.5 992.5 297.08172 992.5 301.5 L 992.5 319.5 C 992.5 323.91828 988.9183 327.5 984.5 327.5 L 840.5 327.5 C 836.0817 327.5 832.5 323.91828 832.5 319.5 L 832.5 301.5 C 832.5 297.08172 836.0817 293.5 840.5 293.5 Z" stroke="#00cbff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(837.5 303)" fill="white">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="white" x="0" y="9">TripType （片道／往復）</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <path d="M 438 204.5 L 622 204.5 C 626.4183 204.5 630 208.08172 630 212.5 L 630 230.5 C 630 234.91828 626.4183 238.5 622 238.5 L 438 238.5 C 433.5817 238.5 430 234.91828 430 230.5 L 430 212.5 C 430 208.08172 433.5817 204.5 438 204.5 Z" fill="#9ce15a"/>
+        <path d="M 438 204.5 L 622 204.5 C 626.4183 204.5 630 208.08172 630 212.5 L 630 230.5 C 630 234.91828 626.4183 238.5 622 238.5 L 438 238.5 C 433.5817 238.5 430 234.91828 430 230.5 L 430 212.5 C 430 208.08172 433.5817 204.5 438 204.5 Z" stroke="#4e8f00" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(435 214)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">普通運賃</tspan>
+        </text>
+      </g>
+      <g id="Line_6">
+        <path d="M 832.5 204.0613 C 825.4677 204.13967 817.819 204.2825 809.5 204.5 C 758.7204 205.82757 694.157 209.64392 639.8786 213.32504" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_7">
+        <path d="M 438 281 L 622 281 C 626.4183 281 630 284.58172 630 289 L 630 307 C 630 311.41828 626.4183 315 622 315 L 438 315 C 433.5817 315 430 311.41828 430 307 L 430 289 C 430 284.58172 433.5817 281 438 281 Z" fill="#dead26"/>
+        <path d="M 438 281 L 622 281 C 626.4183 281 630 284.58172 630 289 L 630 307 C 630 311.41828 626.4183 315 622 315 L 438 315 C 433.5817 315 430 311.41828 430 307 L 430 289 C 430 284.58172 433.5817 281 438 281 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(435 290.5)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">往復割引</tspan>
+        </text>
+      </g>
+      <g id="Line_8">
+        <line x1="530" y1="238.5" x2="530" y2="271.1" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_9">
+        <path d="M 832.5 211.0317 C 822.747 212.72948 812.3629 215.14457 801.5 218.5 C 737.7564 238.1897 764.4173 258.47725 687.5 281 C 671.5012 285.68473 655.3438 289.1561 639.786 291.7162" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_10">
+        <line x1="832.5" y1="307.88562" x2="639.8947" y2="301.59133" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_14">
+        <path d="M 99.5 359 L 283.5 359 C 287.91828 359 291.5 362.58172 291.5 367 L 291.5 385 C 291.5 389.4183 287.91828 393 283.5 393 L 99.5 393 C 95.08172 393 91.5 389.4183 91.5 385 L 91.5 367 C 91.5 362.58172 95.08172 359 99.5 359 Z" fill="#dead26"/>
+        <path d="M 99.5 359 L 283.5 359 C 287.91828 359 291.5 362.58172 291.5 367 L 291.5 385 C 291.5 389.4183 287.91828 393 283.5 393 L 99.5 393 C 95.08172 393 91.5 389.4183 91.5 385 L 91.5 367 C 91.5 362.58172 95.08172 359 99.5 359 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(96.5 361)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">団体個人別割引 </tspan>
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="24.00001">（8人以上の場合に基本運賃から割引）</tspan>
+        </text>
+      </g>
+      <g id="Graphic_15">
+        <path d="M 840.5 367.5 L 984.5 367.5 C 988.9183 367.5 992.5 371.0817 992.5 375.5 L 992.5 393.5 C 992.5 397.9183 988.9183 401.5 984.5 401.5 L 840.5 401.5 C 836.0817 401.5 832.5 397.9183 832.5 393.5 L 832.5 375.5 C 832.5 371.0817 836.0817 367.5 840.5 367.5 Z" fill="#3a8eed"/>
+        <path d="M 840.5 367.5 L 984.5 367.5 C 988.9183 367.5 992.5 371.0817 992.5 375.5 L 992.5 393.5 C 992.5 397.9183 988.9183 401.5 984.5 401.5 L 840.5 401.5 C 836.0817 401.5 832.5 397.9183 832.5 393.5 L 832.5 375.5 C 832.5 371.0817 836.0817 367.5 840.5 367.5 Z" stroke="#00cbff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(837.5 377)" fill="white">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="white" x="0" y="9">DepartureDate （出発日）</tspan>
+        </text>
+      </g>
+      <g id="Line_16">
+        <path d="M 445.101 238.5 C 417.59724 246.13448 385.3784 257.03704 351.5 272.5 C 293.33772 299.04674 246.87178 331.46372 219.3089 352.86547" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_17">
+        <line x1="832.5" y1="383.55687" x2="301.3993" y2="377.29562" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_18">
+        <path d="M 99.5 437 L 283.5 437 C 287.91828 437 291.5 440.5817 291.5 445 L 291.5 463 C 291.5 467.4183 287.91828 471 283.5 471 L 99.5 471 C 95.08172 471 91.5 467.4183 91.5 463 L 91.5 445 C 91.5 440.5817 95.08172 437 99.5 437 Z" fill="#dead26"/>
+        <path d="M 99.5 437 L 283.5 437 C 287.91828 437 291.5 440.5817 291.5 445 L 291.5 463 C 291.5 467.4183 287.91828 471 283.5 471 L 99.5 471 C 95.08172 471 91.5 467.4183 91.5 463 L 91.5 445 C 91.5 440.5817 95.08172 437 99.5 437 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(96.5 439)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">団体総合割引</tspan>
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="24.00001">（31人以上の場合に n人分無料扱い）</tspan>
+        </text>
+      </g>
+      <g id="Graphic_19">
+        <path d="M 840.5 441.5 L 984.5 441.5 C 988.9183 441.5 992.5 445.0817 992.5 449.5 L 992.5 467.5 C 992.5 471.9183 988.9183 475.5 984.5 475.5 L 840.5 475.5 C 836.0817 475.5 832.5 471.9183 832.5 467.5 L 832.5 449.5 C 832.5 445.0817 836.0817 441.5 840.5 441.5 Z" fill="#3a8eed"/>
+        <path d="M 840.5 441.5 L 984.5 441.5 C 988.9183 441.5 992.5 445.0817 992.5 449.5 L 992.5 467.5 C 992.5 471.9183 988.9183 475.5 984.5 475.5 L 840.5 475.5 C 836.0817 475.5 832.5 471.9183 832.5 467.5 L 832.5 449.5 C 832.5 445.0817 836.0817 441.5 840.5 441.5 Z" stroke="#00cbff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(837.5 451)" fill="white">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="white" x="0" y="9">乗客数</tspan>
+        </text>
+      </g>
+      <g id="Graphic_20">
+        <path d="M 438 461 L 622 461 C 626.4183 461 630 464.5817 630 469 L 630 487 C 630 491.4183 626.4183 495 622 495 L 438 495 C 433.5817 495 430 491.4183 430 487 L 430 469 C 430 464.5817 433.5817 461 438 461 Z" fill="#ffc0c0"/>
+        <path d="M 438 461 L 622 461 C 626.4183 461 630 464.5817 630 469 L 630 487 C 630 491.4183 626.4183 495 622 495 L 438 495 C 433.5817 495 430 491.4183 430 487 L 430 469 C 430 464.5817 433.5817 461 438 461 Z" stroke="#ff8ad8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(435 470.5)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">無料扱いの乗客数</tspan>
+        </text>
+      </g>
+      <g id="Line_21">
+        <path d="M 832.989 470.2604 C 813.1848 472.206 789.3199 474.05624 761 475.5 C 720.2235 477.5788 677.4261 478.4471 639.9026 478.7216" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_22">
+        <path d="M 430 224.7464 C 394.31254 228.26375 346.89936 234.31954 284.5 244.5 C 154.33935 265.73572 -.9592703 298.38115 -92.70082 318.39677" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_23">
+        <path d="M 430 297.6439 C 386.3142 298.431 327.19795 300.34712 250.5 304.5 C 126.93939 311.1903 -6.1436056 321.7306 -89.19412 328.75188" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_24">
+        <path d="M 91.5 371.17485 C 70.86922 369.5826 47.530455 367.4649 21.94922 364.64844 C -18.90238 360.1507 -57.84837 354.7103 -89.96611 349.78404" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_26">
+        <path d="M -236.5577 427 L -107.05769 427 C -102.63941 427 -99.05769 430.5817 -99.05769 435 L -99.05769 453 C -99.05769 457.4183 -102.63941 461 -107.05769 461 L -236.5577 461 C -240.97597 461 -244.5577 457.4183 -244.5577 453 L -244.5577 435 C -244.5577 430.5817 -240.97597 427 -236.5577 427 Z" fill="#8080ff"/>
+        <path d="M -236.5577 427 L -107.05769 427 C -102.63941 427 -99.05769 430.5817 -99.05769 435 L -99.05769 453 C -99.05769 457.4183 -102.63941 461 -107.05769 461 L -236.5577 461 C -240.97597 461 -244.5577 457.4183 -244.5577 453 L -244.5577 435 C -244.5577 430.5817 -240.97597 427 -236.5577 427 Z" stroke="#521b93" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-239.5577 436.5)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">小人片道基本運賃</tspan>
+        </text>
+      </g>
+      <g id="Line_27">
+        <line x1="-171.8077" y1="353" x2="-171.8077" y2="417.1" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_28">
+        <text transform="translate(-195.26923 389)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="10" font-weight="300" fill="black" x="0" y="9">半額</tspan>
+        </text>
+      </g>
+      <g id="Graphic_29">
+        <path d="M -310 631.5 L -20 631.5 C -15.581722 631.5 -12 635.0817 -12 639.5 L -12 839.5 C -12 843.9183 -15.581722 847.5 -20 847.5 L -310 847.5 C -314.41828 847.5 -318 843.9183 -318 839.5 L -318 639.5 C -318 635.0817 -314.41828 631.5 -310 631.5 Z" fill="#c0c0ff"/>
+        <path d="M -310 631.5 L -20 631.5 C -15.581722 631.5 -12 635.0817 -12 639.5 L -12 839.5 C -12 843.9183 -15.581722 847.5 -20 847.5 L -310 847.5 C -314.41828 847.5 -318 843.9183 -318 839.5 L -318 639.5 C -318 635.0817 -314.41828 631.5 -310 631.5 Z" stroke="#521b93" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-313 636.5)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">特急料金</tspan>
+        </text>
+      </g>
+      <g id="Graphic_30">
+        <path d="M 840.5 735.5 L 984.5 735.5 C 988.9183 735.5 992.5 739.0817 992.5 743.5 L 992.5 761.5 C 992.5 765.9183 988.9183 769.5 984.5 769.5 L 840.5 769.5 C 836.0817 769.5 832.5 765.9183 832.5 761.5 L 832.5 743.5 C 832.5 739.0817 836.0817 735.5 840.5 735.5 Z" fill="#3a8eed"/>
+        <path d="M 840.5 735.5 L 984.5 735.5 C 988.9183 735.5 992.5 739.0817 992.5 743.5 L 992.5 761.5 C 992.5 765.9183 988.9183 769.5 984.5 769.5 L 840.5 769.5 C 836.0817 769.5 832.5 765.9183 832.5 761.5 L 832.5 743.5 C 832.5 739.0817 836.0817 735.5 840.5 735.5 Z" stroke="#00cbff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(837.5 745)" fill="white">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="white" x="0" y="9">SeatType （自由席／指定席）</tspan>
+        </text>
+      </g>
+      <g id="Graphic_31">
+        <path d="M 840.5 648 L 984.5 648 C 988.9183 648 992.5 651.5817 992.5 656 L 992.5 674 C 992.5 678.4183 988.9183 682 984.5 682 L 840.5 682 C 836.0817 682 832.5 678.4183 832.5 674 L 832.5 656 C 832.5 651.5817 836.0817 648 840.5 648 Z" fill="#3a8eed"/>
+        <path d="M 840.5 648 L 984.5 648 C 988.9183 648 992.5 651.5817 992.5 656 L 992.5 674 C 992.5 678.4183 988.9183 682 984.5 682 L 840.5 682 C 836.0817 682 832.5 678.4183 832.5 674 L 832.5 656 C 832.5 651.5817 836.0817 648 840.5 648 Z" stroke="#00cbff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(837.5 657.5)" fill="white">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="white" x="0" y="9">TrainType （のぞみ／ひかり）</tspan>
+        </text>
+      </g>
+      <g id="Graphic_32">
+        <path d="M 438 596.5 L 622 596.5 C 626.4183 596.5 630 600.0817 630 604.5 L 630 622.5 C 630 626.9183 626.4183 630.5 622 630.5 L 438 630.5 C 433.5817 630.5 430 626.9183 430 622.5 L 430 604.5 C 430 600.0817 433.5817 596.5 438 596.5 Z" fill="#9ce15a"/>
+        <path d="M 438 596.5 L 622 596.5 C 626.4183 596.5 630 600.0817 630 604.5 L 630 622.5 C 630 626.9183 626.4183 630.5 622 630.5 L 438 630.5 C 433.5817 630.5 430 626.9183 430 622.5 L 430 604.5 C 430 600.0817 433.5817 596.5 438 596.5 Z" stroke="#4e8f00" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(435 606)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">特急指定席料金</tspan>
+        </text>
+      </g>
+      <g id="Graphic_33">
+        <path d="M 438 654 L 622 654 C 626.4183 654 630 657.5817 630 662 L 630 680 C 630 684.4183 626.4183 688 622 688 L 438 688 C 433.5817 688 430 684.4183 430 680 L 430 662 C 430 657.5817 433.5817 654 438 654 Z" fill="#9ce15a"/>
+        <path d="M 438 654 L 622 654 C 626.4183 654 630 657.5817 630 662 L 630 680 C 630 684.4183 626.4183 688 622 688 L 438 688 C 433.5817 688 430 684.4183 430 680 L 430 662 C 430 657.5817 433.5817 654 438 654 Z" stroke="#4e8f00" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(435 663.5)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">特急追加料金（のぞみ割り増し）</tspan>
+        </text>
+      </g>
+      <g id="Graphic_34">
+        <path d="M 438 711.5 L 622 711.5 C 626.4183 711.5 630 715.0817 630 719.5 L 630 737.5 C 630 741.9183 626.4183 745.5 622 745.5 L 438 745.5 C 433.5817 745.5 430 741.9183 430 737.5 L 430 719.5 C 430 715.0817 433.5817 711.5 438 711.5 Z" fill="#dead26"/>
+        <path d="M 438 711.5 L 622 711.5 C 626.4183 711.5 630 715.0817 630 719.5 L 630 737.5 C 630 741.9183 626.4183 745.5 622 745.5 L 438 745.5 C 433.5817 745.5 430 741.9183 430 737.5 L 430 719.5 C 430 715.0817 433.5817 711.5 438 711.5 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(435 721)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">特急自由席割引</tspan>
+        </text>
+      </g>
+      <g id="Graphic_35">
+        <path d="M 438 773.5 L 622 773.5 C 626.4183 773.5 630 777.0817 630 781.5 L 630 799.5 C 630 803.9183 626.4183 807.5 622 807.5 L 438 807.5 C 433.5817 807.5 430 803.9183 430 799.5 L 430 781.5 C 430 777.0817 433.5817 773.5 438 773.5 Z" fill="#9ce15a"/>
+        <path d="M 438 773.5 L 622 773.5 C 626.4183 773.5 630 777.0817 630 781.5 L 630 799.5 C 630 803.9183 626.4183 807.5 622 807.5 L 438 807.5 C 433.5817 807.5 430 803.9183 430 799.5 L 430 781.5 C 430 777.0817 433.5817 773.5 438 773.5 Z" stroke="#4e8f00" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(435 783)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">季節性調整料金 （正値／負値）</tspan>
+        </text>
+      </g>
+      <g id="Line_36">
+        <path d="M 638.7941 607.93434 C 655.1392 598.6093 671.5218 584.2005 686.5 562.5 C 751.5185 468.3011 695.4731 380.44006 759.5 281 C 782.3805 245.4643 808.4468 226.45104 832.5 216.68947" marker-start="url(#FilledArrow_Marker_2)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_37">
+        <path d="M 835.5098 226.75324 C 825.2849 237.60384 814.512 252.7175 803.5 273.5 C 745.7058 382.57243 785.9839 483.88626 708.5 596.5 C 686.2703 628.8082 662.10375 648.7103 638.9413 660.6656" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_38">
+        <path d="M 832.5 669.4041 C 822.5744 669.7964 811.8781 670.1695 800.5 670.5 C 732.2235 672.4831 748.134 671.85835 671.5 672 C 660.6827 672.02 650.0998 672.0144 639.9008 671.9901" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_39">
+        <path d="M 832.6072 742.1869 C 800.1234 738.5674 759.9803 734.7282 716.5 732 C 688.7089 730.2562 662.9059 729.1767 639.89924 728.53536" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_40">
+        <path d="M 835.157 399.4543 C 831.9456 404.69164 828.7204 410.6779 825.5 417.5 C 782.4376 508.7242 844.2166 600.8272 760.5 706.5 C 726.0185 750.0248 680.83795 771.9458 639.6215 782.6755" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_41">
+        <path d="M 832.5 759.5 C 773.1476 770.8322 788.6998 783.7175 703 792.5 C 681.605 794.6925 660.11025 795.6657 639.899 795.8917" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_42">
+        <path d="M 840.5 61.5 L 984.5 61.5 C 988.9183 61.5 992.5 65.08172 992.5 69.5 L 992.5 87.5 C 992.5 91.91828 988.9183 95.5 984.5 95.5 L 840.5 95.5 C 836.0817 95.5 832.5 91.91828 832.5 87.5 L 832.5 69.5 C 832.5 65.08172 836.0817 61.5 840.5 61.5 Z" fill="#3a8eed"/>
+        <path d="M 840.5 61.5 L 984.5 61.5 C 988.9183 61.5 992.5 65.08172 992.5 69.5 L 992.5 87.5 C 992.5 91.91828 988.9183 95.5 984.5 95.5 L 840.5 95.5 C 836.0817 95.5 832.5 91.91828 832.5 87.5 L 832.5 69.5 C 832.5 65.08172 836.0817 61.5 840.5 61.5 Z" stroke="#00cbff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(837.5 70.999995)" fill="white">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="white" x="55" y="9">運賃因子</tspan>
+        </text>
+      </g>
+      <g id="Line_45">
+        <path d="M 834.6403 444.05354 C 776.4157 435.3937 688.0249 426.1193 578 426.5 C 496.0592 426.7835 417.544 432.3689 352.8433 438.9658" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_46">
+        <path d="M 430 473.0178 C 420.89904 472.41977 411.07854 471.75003 400.5 471 C 367.73266 468.67676 332.95693 465.9564 301.37087 463.38157" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_51">
+        <path d="M -236.5577 668 L -107.05769 668 C -102.63941 668 -99.05769 671.5817 -99.05769 676 L -99.05769 694 C -99.05769 698.4183 -102.63941 702 -107.05769 702 L -236.5577 702 C -240.97597 702 -244.5577 698.4183 -244.5577 694 L -244.5577 676 C -244.5577 671.5817 -240.97597 668 -236.5577 668 Z" fill="#8080ff"/>
+        <path d="M -236.5577 668 L -107.05769 668 C -102.63941 668 -99.05769 671.5817 -99.05769 676 L -99.05769 694 C -99.05769 698.4183 -102.63941 702 -107.05769 702 L -236.5577 702 C -240.97597 702 -244.5577 698.4183 -244.5577 694 L -244.5577 676 C -244.5577 671.5817 -240.97597 668 -236.5577 668 Z" stroke="#521b93" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-239.5577 677.5)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">大人片道特急料金</tspan>
+        </text>
+      </g>
+      <g id="Graphic_52">
+        <path d="M -236.5577 773.5 L -107.05769 773.5 C -102.63941 773.5 -99.05769 777.0817 -99.05769 781.5 L -99.05769 799.5 C -99.05769 803.9183 -102.63941 807.5 -107.05769 807.5 L -236.5577 807.5 C -240.97597 807.5 -244.5577 803.9183 -244.5577 799.5 L -244.5577 781.5 C -244.5577 777.0817 -240.97597 773.5 -236.5577 773.5 Z" fill="#8080ff"/>
+        <path d="M -236.5577 773.5 L -107.05769 773.5 C -102.63941 773.5 -99.05769 777.0817 -99.05769 781.5 L -99.05769 799.5 C -99.05769 803.9183 -102.63941 807.5 -107.05769 807.5 L -236.5577 807.5 C -240.97597 807.5 -244.5577 803.9183 -244.5577 799.5 L -244.5577 781.5 C -244.5577 777.0817 -240.97597 773.5 -236.5577 773.5 Z" stroke="#521b93" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-239.5577 783)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">小人片道特急料金</tspan>
+        </text>
+      </g>
+      <g id="Line_53">
+        <line x1="-171.8077" y1="702" x2="-171.8077" y2="763.6" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_54">
+        <text transform="translate(-195.26923 738.5)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="10" font-weight="300" fill="black" x="0" y="9">半額</tspan>
+        </text>
+      </g>
+      <g id="Line_55">
+        <path d="M 430 619.4692 C 357.4203 624.25815 253.3966 632.0075 145.5 643 C 44.86416 653.25276 -35.18853 663.8866 -89.71265 671.88904" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_56">
+        <path d="M 430 667.4707 C 381.46773 666.5986 315.288 666.3286 231.5 668 C 111.14631 670.4009 -11.27999 676.1242 -89.17022 680.268" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_58">
+        <path d="M 430 722.7282 L 157.5 707 L -89.17971 690.5201" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_59">
+        <path d="M 430 781.7134 C 387.7898 776.9629 330.81774 769.6719 256.5 758.5 C 131.33335 739.6842 -5.982677 715.43 -90.54679 700.0415" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_60">
+        <path d="M 99.5 503 L 283.5 503 C 287.91828 503 291.5 506.5817 291.5 511 L 291.5 529 C 291.5 533.4183 287.91828 537 283.5 537 L 99.5 537 C 95.08172 537 91.5 533.4183 91.5 529 L 91.5 511 C 91.5 506.5817 95.08172 503 99.5 503 Z" fill="#dead26"/>
+        <path d="M 99.5 503 L 283.5 503 C 287.91828 503 291.5 506.5817 291.5 511 L 291.5 529 C 291.5 533.4183 287.91828 537 283.5 537 L 99.5 537 C 95.08172 537 91.5 533.4183 91.5 529 L 91.5 511 C 91.5 506.5817 95.08172 503 99.5 503 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(96.5 512.5)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">団体割引適用なし</tspan>
+        </text>
+      </g>
+      <g id="Line_61">
+        <path d="M 347.7838 439.4866 C 347.7838 439.4866 354.776 410.98608 310.5 393 C 307.4077 391.74383 304.1669 390.5802 300.8134 389.5023" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_62">
+        <path d="M 347.59903 439.5058 C 347.59903 439.5058 340.42925 442.135 301.35642 445.94303" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Line_63">
+        <path d="M 347.59903 439.5058 C 347.59903 439.5058 332.3295 480.86556 299.53748 506.7705" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_65">
+        <path d="M -285.75 543 L -101.75 543 C -97.33172 543 -93.75 546.5817 -93.75 551 L -93.75 575.5 C -93.75 579.9183 -97.33172 583.5 -101.75 583.5 L -285.75 583.5 C -290.16828 583.5 -293.75 579.9183 -293.75 575.5 L -293.75 551 C -293.75 546.5817 -290.16828 543 -285.75 543 Z" fill="#40ffff"/>
+        <path d="M -285.75 543 L -101.75 543 C -97.33172 543 -93.75 546.5817 -93.75 551 L -93.75 575.5 C -93.75 579.9183 -97.33172 583.5 -101.75 583.5 L -285.75 583.5 C -290.16828 583.5 -293.75 579.9183 -293.75 575.5 L -293.75 551 C -293.75 546.5817 -290.16828 543 -285.75 543 Z" stroke="#005493" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-288.75 548.25)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="9">運賃計算上の乗客数</tspan>
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="0" y="24.00001">（無料扱いの乗客数を考慮したもの）</tspan>
+        </text>
+      </g>
+      <g id="Line_66">
+        <path d="M 91.5 453.90906 C 84.1452 455.79093 76.46882 458.1272 68.5 461 C -5.6650445 487.7369 4.011581 519.40706 -70.28516 548.375 C -75.06345 550.238 -79.7378 551.92295 -84.30182 553.445" marker-end="url(#FilledArrow_Marker)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_73">
+        <path d="M 438 45 L 622 45 C 626.4183 45 630 48.58172 630 53 L 630 71 C 630 75.41828 626.4183 79 622 79 L 438 79 C 433.5817 79 430 75.41828 430 71 L 430 53 C 430 48.58172 433.5817 45 438 45 Z" fill="#9ce15a"/>
+        <path d="M 438 45 L 622 45 C 626.4183 45 630 48.58172 630 53 L 630 71 C 630 75.41828 626.4183 79 622 79 L 438 79 C 433.5817 79 430 75.41828 430 71 L 430 53 C 430 48.58172 433.5817 45 438 45 Z" stroke="#4e8f00" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(435 54.499995)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="70" y="9">加算系料金</tspan>
+        </text>
+      </g>
+      <g id="Graphic_74">
+        <path d="M 438 96.00004 L 622 96.00004 C 626.4183 96.00004 630 99.58176 630 104.00004 L 630 122.00004 C 630 126.41831 626.4183 130.00004 622 130.00004 L 438 130.00004 C 433.5817 130.00004 430 126.41831 430 122.00004 L 430 104.00004 C 430 99.58176 433.5817 96.00004 438 96.00004 Z" fill="#dead26"/>
+        <path d="M 438 96.00004 L 622 96.00004 C 626.4183 96.00004 630 99.58176 630 104.00004 L 630 122.00004 C 630 126.41831 626.4183 130.00004 622 130.00004 L 438 130.00004 C 433.5817 130.00004 430 126.41831 430 122.00004 L 430 104.00004 C 430 99.58176 433.5817 96.00004 438 96.00004 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(435 105.50003)" fill="black">
+          <tspan font-family="Hiragino Kaku Gothic ProN" font-size="10" font-weight="300" fill="black" x="70" y="9">減算系料金</tspan>
+        </text>
+      </g>
+      <g id="Graphic_81">
+        <rect x="-469" y="157.5" width="1475" height="3.5" fill="#666"/>
+        <rect x="-469" y="157.5" width="1475" height="3.5" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_83">
+        <path d="M 359.75 876.3396 C 359.75 864.5457 355.43835 863.0865 323.94294 851.4146 L 323.61022 851.2939 C 291.94845 839.5 291.61914 839.5 259.1256 839.5 C 215.85972 839.5 20.25 839.5 20.25 839.5 L 20.25 964 L 359.75 964 L 359.75 876.3396 Z" fill="#fffd78"/>
+        <path d="M 359.75 876.3396 C 359.75 864.5457 355.43835 863.0865 323.94294 851.4146 L 323.61022 851.2939 C 291.94845 839.5 291.61914 839.5 259.1256 839.5 C 215.85972 839.5 20.25 839.5 20.25 839.5 L 20.25 964 L 359.75 964 L 359.75 876.3396 Z M 359.75 875.732 C 359.75 864.5457 359.4173 864.5457 291.61914 864.5457 L 291.61914 864.5457 C 291.61914 839.622 291.61914 839.5 261.11506 839.5" stroke="#fffc00" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(25.25 856.75)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="12" font-weight="300" fill="black" x="0" y="29">団体割引は下記の通り適用先が全く異なるので悩ましい</tspan>
+          <tspan font-family="Hiragino Sans" font-size="12" font-weight="300" fill="black" x="0" y="47.00001">・普通運賃に適用される</tspan>
+          <tspan font-family="Hiragino Sans" font-size="12" font-weight="300" fill="black" x="0" y="65.000024">・乗客のうち何人かが無料扱いになる</tspan>
+        </text>
+      </g>
+      <g id="Graphic_84">
+        <path d="M 738 876.3396 C 738 864.5457 733.68835 863.0865 702.1929 851.4146 L 701.8602 851.2939 C 670.19846 839.5 669.86914 839.5 637.3756 839.5 C 594.1097 839.5 398.5 839.5 398.5 839.5 L 398.5 964 L 738 964 L 738 876.3396 Z" fill="#fffd78"/>
+        <path d="M 738 876.3396 C 738 864.5457 733.68835 863.0865 702.1929 851.4146 L 701.8602 851.2939 C 670.19846 839.5 669.86914 839.5 637.3756 839.5 C 594.1097 839.5 398.5 839.5 398.5 839.5 L 398.5 964 L 738 964 L 738 876.3396 Z M 738 875.732 C 738 864.5457 737.6673 864.5457 669.86914 864.5457 L 669.86914 864.5457 C 669.86914 839.622 669.86914 839.5 639.3651 839.5" stroke="#fffc00" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(403.5 865.75)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="12" font-weight="300" fill="black" x="0" y="11">往復割引は</tspan>
+          <tspan font-family="Hiragino Sans" font-size="12" font-weight="300" fill="black" x="0" y="29.000012">・区間 から導出された普通運賃</tspan>
+          <tspan font-family="Hiragino Sans" font-size="12" font-weight="300" fill="black" x="0" y="47.000024">・区間</tspan>
+          <tspan font-family="Hiragino Sans" font-size="12" font-weight="300" fill="black" x="0" y="65.00004">を使うので少し扱いに悩む</tspan>
+        </text>
+      </g>
+      <g id="Graphic_85">
+        <text transform="translate(-464 50)" fill="#0096ff">
+          <tspan font-family="YuGothic" font-size="30" font-weight="500" fill="#0096ff" x="0" y="26">運賃計算モデル</tspan>
+        </text>
+      </g>
+      <g id="Graphic_86">
+        <rect x="-318" y="179.12502" width="306" height="85.00001" fill="#c0ffff"/>
+        <text transform="translate(-310 176.62501)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="12" font-weight="300" fill="black" x="0" y="29">料金 ＝ 普通運賃 + 特急料金</tspan>
+          <tspan font-family="Hiragino Sans" font-size="12" font-weight="300" fill="black" x="0" y="65.00001">「運賃計算上の乗客数」で人数分の料金を算出する。</tspan>
+        </text>
+      </g>
+      <g id="Graphic_88">
+        <text transform="translate(704 18.49999)" fill="#0096ff">
+          <tspan font-family="Hiragino Sans" font-size="10" font-weight="300" fill="#0096ff" x="0" y="9">凡例</tspan>
+        </text>
+      </g>
+      <g id="Graphic_89">
+        <rect x="-461" y="532.8654" width="110.5" height="55.00003" fill="#c0ffff"/>
+        <text transform="translate(-453 551.3654)" fill="black">
+          <tspan font-family="Hiragino Sans" font-size="12" font-weight="300" fill="black" x="23.25" y="11">運賃明細</tspan>
+        </text>
+      </g>
+      <g id="Line_91">
+        <path d="M -248.35824 498.25005 C -254.84186 503.8456 -261.69296 509.2537 -268.90775 514.3517 C -294.024 532.099 -319.19864 543.0152 -340.98288 549.7248" marker-end="url(#FilledArrow_Marker_3)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_92">
+        <path d="M -226.0707 631.5 C -226.5119 631.16636 -226.95628 630.833 -227.40385 630.5 C -261.15126 605.3896 -305.165 587.9578 -341.0238 576.7535" marker-end="url(#FilledArrow_Marker_3)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_93">
+        <path d="M -293.75 563.76636 C -308.52935 563.7375 -323.36103 563.6471 -337 563.46154 C -338.2211 563.4449 -339.42093 563.4277 -340.5999 563.4099" marker-end="url(#FilledArrow_Marker_3)" stroke="#0096ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
