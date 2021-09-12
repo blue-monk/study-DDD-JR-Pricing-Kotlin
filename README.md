@@ -232,3 +232,16 @@ IntelliJ IDEA であれば、`⌘ + shift + F` で検索してみてください
 要求仕様として解釈が間違っているところもあるかもしれませんが、  
 ご容赦ください。  
 
+---
+
+## :seedling: 探求課題
+
+### :leaves: 1. （リファクタリング） ルート別価格テーブルを1つに統一してみる
+
+`com/example/rail/domain/model/faresystem/pricing/byRoute`パッケージをみると、  
+普通運賃、特急指定席料金、のぞみプレミアムチャージ料金の3つの価格設定テーブルが定義されていて、  
+新しいルートを登録するときに登録漏れが心配になります。  
+という理由で、ルート別価格テーブルを1つに統一してみます。
+
+対応版は、[quest/refactor-pricing-by-route ブランチ](https://github.com/blue-monk/study-DDD-JR-Pricing-Kotlin/tree/quest/refactor-pricing-by-route) です。
+
