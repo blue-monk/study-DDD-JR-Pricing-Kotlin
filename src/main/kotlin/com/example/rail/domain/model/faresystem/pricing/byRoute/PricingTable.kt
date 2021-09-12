@@ -1,4 +1,4 @@
-package com.example.rail.domain.model.faresystem.pricing.byRoute.integrated
+package com.example.rail.domain.model.faresystem.pricing.byRoute
 
 import com.example.rail.domain.model.faresystem._foundation.monetary.amount.FareAmount
 import com.example.rail.domain.model.faresystem.factor.route.Route
@@ -18,7 +18,7 @@ private typealias N = FaresForRoute.NozomiPremiumChargeFare
  * - 特急指定席料金
  * - のぞみプレミアムチャージ料金
  */
-object PricingTable {
+private object PricingTable {
 
     private val faresByRoute = mapOf(
 
@@ -64,5 +64,37 @@ private data class FaresForRoute(
 
     data class NozomiPremiumChargeFare(val fareAmount: FareAmount) {
         constructor(amount: Int) : this(FareAmount(amount))
+    }
+}
+
+
+
+/**
+ * 普通運賃プライシング
+ */
+object BasicFarePricing {
+
+    fun fareFor(route: Route): FareAmount {
+        return PricingTable.basicFareFor(route)
+    }
+}
+
+/**
+ * 特急指定席料金プライシング
+ */
+object LimitedExpressReservedSeatFarePricing {
+
+    fun fareFor(route: Route): FareAmount {
+        return PricingTable.limitedExpressReservedSeatFareFor(route)
+    }
+}
+
+/**
+ * のぞみプレミアムチャージ料金プライシング
+ */
+object NozomiPremiumChargePricing {
+
+    fun fareFor(route: Route): FareAmount {
+        return PricingTable.nozomiPremiumChargeFareFor(route)
     }
 }
