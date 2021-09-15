@@ -9,7 +9,7 @@ import com.example.rail.domain.model.faresystem.factor.equipment.TrainType
 import com.example.rail.domain.model.faresystem.factor.route.Route
 import com.example.rail.domain.model.faresystem.factor.route.TripType
 import com.example.rail.domain.model.faresystem.rule.express.LimitedExpressNonReservedSeatDiscount
-import com.example.rail.domain.model.faresystem.rule.express.LimitedExpressReservedSeatAmount
+import com.example.rail.domain.model.faresystem.rule.express.LimitedExpressReservedSeatFare
 import com.example.rail.domain.model.faresystem.rule.express.LimitedExpressSurcharge
 import com.example.rail.domain.model.faresystem.rule.seasonality.SeasonalAdjustmentFee
 
@@ -46,7 +46,7 @@ data class ExpressFareCalculator(
 
     fun calculate(): Pair<AdultExpressFare, ChildExpressFare> {
 
-        val limitedExpressReservedSeatFare = LimitedExpressReservedSeatAmount.withFactor(factor.route)
+        val limitedExpressReservedSeatFare = LimitedExpressReservedSeatFare.withFactor(factor.route)
         val limitedExpressSurcharge = LimitedExpressSurcharge.withFactor(factor.route, factor.trainType)
         val limitedExpressDiscount = LimitedExpressNonReservedSeatDiscount.withFactor(factor.seatType)
         val seasonalAdjustmentFee = SeasonalAdjustmentFee.withFactor(factor.departureDate, factor.seatType)

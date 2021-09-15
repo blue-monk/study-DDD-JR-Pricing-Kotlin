@@ -12,7 +12,7 @@ import com.example.rail.domain.model.faresystem.pricing.byRoute.LimitedExpressRe
  *
  * @property factor
  */
-data class LimitedExpressReservedSeatAmount(
+data class LimitedExpressReservedSeatFare(
 
         private val factor: Factor
 
@@ -25,8 +25,8 @@ data class LimitedExpressReservedSeatAmount(
 
     companion object {
 
-        fun withFactor(route: Route): LimitedExpressReservedSeatAmount {
-            return LimitedExpressReservedSeatAmount(Factor(route))
+        fun withFactor(route: Route): LimitedExpressReservedSeatFare {
+            return LimitedExpressReservedSeatFare(Factor(route))
         }
     }
 
