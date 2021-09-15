@@ -51,14 +51,14 @@ data class ExpressFareCalculator(
         val limitedExpressDiscount = LimitedExpressNonReservedSeatDiscount.withFactor(factor.seatType)
         val seasonalAdjustmentFee = SeasonalAdjustmentFee.withFactor(factor.departureDate, factor.seatType)
 
-        val accumulatedAmount = accumulateAmount {
+        val (accumulatedAmount, discountTrails) = accumulateAmount {
             accumulate(limitedExpressReservedSeatFare)
             accumulate(limitedExpressSurcharge)
             accumulate(limitedExpressDiscount)
             accumulate(seasonalAdjustmentFee)
         }
 
-        val adultExpressFare = AdultExpressFare(accumulatedAmount.roundedJpMoney, factor.tripType)
+        val adultExpressFare = AdultExpressFare(accumulatedAmount.roundedJpMoney, factor.tripType, discountTrails)
         val childExpressFare = ChildExpressFare.createFrom(adultExpressFare)
 
         return adultExpressFare to childExpressFare

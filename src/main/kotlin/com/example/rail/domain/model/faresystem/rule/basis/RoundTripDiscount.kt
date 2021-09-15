@@ -4,6 +4,11 @@ import com.example.rail.domain.model.faresystem._foundation.distance.営業キ�
 import com.example.rail.domain.model.faresystem._foundation.monetary.DiscountRate
 import com.example.rail.domain.model.faresystem._foundation.monetary.accumulation.AccumulatableAmount
 import com.example.rail.domain.model.faresystem._foundation.monetary.amount.DiscountAmount
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.Commentary
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.TrailName
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.MonetaryDiscountTrail
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.RateType
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.SignRequisition
 import com.example.rail.domain.model.faresystem.factor.route.Route
 import com.example.rail.domain.model.faresystem.factor.route.RouteDistanceDef
 import com.example.rail.domain.model.faresystem.factor.route.TripType
@@ -40,6 +45,10 @@ data class RoundTripDiscount(
     override val amount: DiscountAmount by lazy {
         compute()
     }
+
+    override val discountTrail: MonetaryDiscountTrail
+        get() = MonetaryDiscountTrail.trail(name = TrailName("往復割引"), commentary = Commentary("適用済み"), value = RateType(DISCOUNT_RATE), signRequisition = SignRequisition.No)
+
 
     //BIZ-RULE: 片道の営業キロが601km以上あれば、「ゆき」と「かえり」の運賃がそれぞれ1割引になります
     private fun compute(): DiscountAmount {

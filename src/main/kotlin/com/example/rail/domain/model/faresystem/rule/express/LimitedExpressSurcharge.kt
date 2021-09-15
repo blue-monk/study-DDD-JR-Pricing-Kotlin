@@ -1,7 +1,8 @@
 package com.example.rail.domain.model.faresystem.rule.express
 
-import com.example.rail.domain.model.faresystem._foundation.monetary.amount.FareAmount
 import com.example.rail.domain.model.faresystem._foundation.monetary.accumulation.AccumulatableAmount
+import com.example.rail.domain.model.faresystem._foundation.monetary.amount.FareAmount
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.MonetaryDiscountTrail
 import com.example.rail.domain.model.faresystem.factor.equipment.TrainType
 import com.example.rail.domain.model.faresystem.factor.route.Route
 import com.example.rail.domain.model.faresystem.pricing.byRoute.NozomiPremiumChargePricing
@@ -38,4 +39,7 @@ data class LimitedExpressSurcharge(
         TrainType.Hikari -> FareAmount.ZERO
         TrainType.Nozomi -> NozomiPremiumChargePricing.fareFor(factor.route)
     }
+
+    override val discountTrail: MonetaryDiscountTrail
+        get() = MonetaryDiscountTrail.nothing()
 }

@@ -30,19 +30,23 @@ data class FareStatementRepresentation(
             行程タイプ　　　　　${fareRequest.tripType}
             人数　　　　　　　　${fareRequest.numberOfPax}
             ---------------------------------------------------------------------
-            大人${fareRequest.tripType.displayName}普通運賃　　${adultFare.adultBasicFare.actualAmountWithTripType.displayString}
-            大人${fareRequest.tripType.displayName}特急料金　　${adultFare.adultExpressFare.actualAmountWithTripType.displayString}
-            大人運賃合計　　　　${adultFare.adultFareTotal.displayString}
-            大人適用人数　　　　${numberOfPaxOnFareCalculation.appliedNumberOfPax.adults}
-            大人運賃総合計　　　${adultFare.allAdultsFareTotal.displayString}
+            大人${fareRequest.tripType.displayName}普通運賃　　${padded(adultFare.adultBasicFare.actualAmountWithTripType.displayString)}　　　　　${adultFare.adultBasicFare.trailsDescription}
+            大人${fareRequest.tripType.displayName}特急料金　　${padded(adultFare.adultExpressFare.actualAmountWithTripType.displayString)}　　　　　${adultFare.adultExpressFare.trailsDescription}
+            大人運賃合計　　　　${padded(adultFare.adultFareTotal.displayString)}
+            大人適用人数　　　　${padded(numberOfPaxOnFareCalculation.appliedNumberOfPax.adults.displayString)}　　　　　${numberOfPaxOnFareCalculation.paxDiscountTrails.adult.description()}
+            大人運賃総合計　　　${padded(adultFare.allAdultsFareTotal.displayString)}
             ---------------------------------------------------------------------
-            小人${fareRequest.tripType.displayName}普通運賃　　${childFare.childBasicFare.actualAmountWithTripType.displayString}
-            小人${fareRequest.tripType.displayName}特急料金　　${childFare.childExpressFare.actualAmountWithTripType.displayString}
-            小人運賃合計　　　　${childFare.childFareTotal.displayString}
-            小人適用人数　　　　${numberOfPaxOnFareCalculation.appliedNumberOfPax.children}
-            小人運賃総合計　　　${childFare.allChildrenFareTotal.displayString}
+            小人${fareRequest.tripType.displayName}普通運賃　　${padded(childFare.childBasicFare.actualAmountWithTripType.displayString)}　　　　　${childFare.childBasicFare.trailsDescription}
+            小人${fareRequest.tripType.displayName}特急料金　　${padded(childFare.childExpressFare.actualAmountWithTripType.displayString)}　　　　　${childFare.childExpressFare.trailsDescription}
+            小人運賃合計　　　　${padded(childFare.childFareTotal.displayString)}
+            小人適用人数　　　　${padded(numberOfPaxOnFareCalculation.appliedNumberOfPax.children.displayString)}　　　　　${numberOfPaxOnFareCalculation.paxDiscountTrails.child.description()}
+            小人運賃総合計　　　${padded(childFare.allChildrenFareTotal.displayString)}
             ---------------------------------------------------------------------
-            お支払い金額合計　　${totalPaymentAmount.displayString}
+            お支払い金額合計　　${padded(totalPaymentAmount.displayString)}
         """.trimIndent()
+    }
+
+    private fun padded(value: String, numberOfDigits: Int = 11): String {
+        return value.padStart(numberOfDigits)
     }
 }

@@ -4,6 +4,7 @@ import com.example.rail.domain.model.faresystem._foundation.monetary.DiscountRat
 import com.example.rail.domain.model.faresystem._foundation.monetary.accumulation.AccumulatableAmount
 import com.example.rail.domain.model.faresystem._foundation.monetary.amount.DiscountAmount
 import com.example.rail.domain.model.faresystem._foundation.monetary.amount.FareAmount
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.MonetaryDiscountTrail
 import com.example.rail.domain.model.faresystem.factor.route.Route
 import com.example.rail.domain.model.faresystem.pricing.byRoute.BasicFarePricing
 
@@ -33,6 +34,9 @@ data class BasicFare(
 
     //BIZ-RULE: 普通運賃
     override val amount: FareAmount = BasicFarePricing.fareFor(factor.route)
+
+    override val discountTrail: MonetaryDiscountTrail
+        get() = MonetaryDiscountTrail.nothing()
 
 
     operator fun times(discountRate: DiscountRate): DiscountAmount = amount * discountRate

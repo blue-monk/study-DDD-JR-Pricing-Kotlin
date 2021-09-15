@@ -1,7 +1,8 @@
 package com.example.rail.domain.model.faresystem.rule.express
 
-import com.example.rail.domain.model.faresystem._foundation.monetary.amount.FareAmount
 import com.example.rail.domain.model.faresystem._foundation.monetary.accumulation.AccumulatableAmount
+import com.example.rail.domain.model.faresystem._foundation.monetary.amount.FareAmount
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.MonetaryDiscountTrail
 import com.example.rail.domain.model.faresystem.factor.route.Route
 import com.example.rail.domain.model.faresystem.pricing.byRoute.LimitedExpressReservedSeatFarePricing
 
@@ -33,4 +34,7 @@ data class LimitedExpressReservedSeatFare(
 
     //BIZ-RULE: 指定席特急料金
     override val amount = LimitedExpressReservedSeatFarePricing.fareFor(factor.route)
+
+    override val discountTrail: MonetaryDiscountTrail
+        get() = MonetaryDiscountTrail.nothing()
 }

@@ -2,6 +2,8 @@ package com.example.rail.domain.model.faresystem._foundation.monetary.accumulati
 
 import com.example.rail.domain.model.faresystem._foundation.monetary.JpMoney
 import com.example.rail.domain.model.faresystem._foundation.monetary.amount.TemporalAmount
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.DiscountTrail
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.DiscountTrails
 
 /**
  * 累算器
@@ -13,6 +15,8 @@ import com.example.rail.domain.model.faresystem._foundation.monetary.amount.Temp
 class Accumulator {
 
     private var amount: TemporalAmount = TemporalAmount.ZERO
+
+    private val trails: MutableList<DiscountTrail> = mutableListOf()
 
 
     fun <T : AccumulatableAmount<*>> accumulate(accumulatableAmount: T): Accumulator {
@@ -26,12 +30,17 @@ class Accumulator {
             Accumulatable.Operation.Subtraction -> this.amount -= accumulatableAmount.amount
         }
 
+        trails.add(accumulatableAmount.discountTrail)
+
         return this
     }
 
 
     val roundedJpMoney: JpMoney
         get() = amount.roundedJpMoney
+
+    val discountTrails: DiscountTrails
+        get() = DiscountTrails(trails)
 }
 
 
@@ -51,11 +60,11 @@ data class AccumulatedAmount(val roundedJpMoney: JpMoney)
  * @param accumulatingBlock 運賃積み上げブロック．
  * @receiver [Accumulator]
  *
- * @return 累算結果金額
+ * @return (累算結果金額, 割引証跡)
  */
-fun accumulateAmount(accumulatingBlock: Accumulator.() -> Unit): AccumulatedAmount {
+fun accumulateAmount(accumulatingBlock: Accumulator.() -> Unit): Pair<AccumulatedAmount, DiscountTrails> {
 
     val accumulator = Accumulator()
     accumulator.accumulatingBlock()
-    return AccumulatedAmount(accumulator.roundedJpMoney)
+    return AccumulatedAmount(accumulator.roundedJpMoney) to accumulator.discountTrails
 }

@@ -2,6 +2,11 @@ package com.example.rail.domain.model.faresystem.rule.group.individually
 
 import com.example.rail.domain.model.faresystem._foundation.monetary.DiscountRate
 import com.example.rail.domain.model.faresystem._foundation.monetary.amount.DiscountAmount
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.Commentary
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.TrailName
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.MonetaryDiscountTrail
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.RateType
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.SignRequisition
 import com.example.rail.domain.model.faresystem.factor.date.DepartureDate
 import com.example.rail.domain.model.faresystem.pricing.discount.GroupIndividualDiscountPricing
 import com.example.rail.domain.model.faresystem.rule.basis.BasicFare
@@ -29,4 +34,6 @@ class AppliedGroupIndividualDiscount(
     override val amount: DiscountAmount
         get() = basicFare * discountRate
 
+    override val discountTrail: MonetaryDiscountTrail
+        get() = MonetaryDiscountTrail.trail(name = TrailName("団体割引"), commentary = Commentary("適用済み"), value = RateType(discountRate), signRequisition = SignRequisition.No)
 }

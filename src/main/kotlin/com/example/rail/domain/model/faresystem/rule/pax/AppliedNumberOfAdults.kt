@@ -20,7 +20,9 @@ data class AppliedNumberOfAdults(
     }
 
 
-    override fun toString(): String {
-        return NumberOfPassengerFormatter.format(value)
-    }
+    val absolute: AppliedNumberOfAdults
+        get() = AppliedNumberOfAdults(kotlin.math.abs(value))
+
+
+    val displayString: String = NumberOfPassengerFormatter.format(value)
 }

@@ -1,7 +1,12 @@
 package com.example.rail.domain.model.faresystem.rule.express
 
-import com.example.rail.domain.model.faresystem._foundation.monetary.amount.DiscountAmount
 import com.example.rail.domain.model.faresystem._foundation.monetary.accumulation.AccumulatableAmount
+import com.example.rail.domain.model.faresystem._foundation.monetary.amount.DiscountAmount
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.Commentary
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.TrailName
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.FareType
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.MonetaryDiscountTrail
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.SignRequisition
 import com.example.rail.domain.model.faresystem.factor.equipment.SeatType
 import com.example.rail.domain.model.faresystem.pricing.discount.LimitedExpressNonReservedSeatDiscountPricing
 
@@ -34,4 +39,7 @@ data class LimitedExpressNonReservedSeatDiscount(
         SeatType.NonReserved -> LimitedExpressNonReservedSeatDiscountPricing.discountAmount
         SeatType.Reserved    -> DiscountAmount.ZERO
     }
+
+    override val discountTrail: MonetaryDiscountTrail
+        get() = MonetaryDiscountTrail.trail(name = TrailName("特急自由席割引"), commentary = Commentary("適用済み"), value = FareType(amount), signRequisition = SignRequisition.No)
 }

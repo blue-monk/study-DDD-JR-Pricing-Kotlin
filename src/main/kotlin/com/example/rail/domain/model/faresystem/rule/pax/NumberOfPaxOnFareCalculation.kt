@@ -1,5 +1,6 @@
 package com.example.rail.domain.model.faresystem.rule.pax
 
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.freepax.PaxDiscountTrails
 import com.example.rail.domain.model.faresystem.factor.passenger.NumberOfPax
 
 /**
@@ -16,5 +17,13 @@ data class NumberOfPaxOnFareCalculation(
 ) {
 
     /** 無料扱い考慮済みの乗客数（運賃計算で使用する） */
-    val appliedNumberOfPax: AppliedNumberOfPax = numberOfFreePax.applyTo(requestedNumberOfPax)
+    val appliedNumberOfPax: AppliedNumberOfPax
+
+    val paxDiscountTrails: PaxDiscountTrails
+
+    init {
+        val (appliedNumberOfPax, paxDiscountTrails) = numberOfFreePax.applyTo(requestedNumberOfPax)
+        this.appliedNumberOfPax = appliedNumberOfPax
+        this.paxDiscountTrails = paxDiscountTrails
+    }
 }

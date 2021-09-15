@@ -1,10 +1,11 @@
 package com.example.rail.domain.model.faresystem.rule.pax
 
-import com.example.rail.domain.model.faresystem.factor.passenger.NumberOfAdults
-import com.example.rail.domain.model.faresystem.factor.passenger.NumberOfChildren
-import com.example.rail.domain.model.faresystem.factor.passenger.NumberOfPassenger
-import com.example.rail.domain.model.faresystem.factor.passenger.NumberOfPax
-import com.example.rail.domain.model.faresystem.factor.passenger.TemporalNumberOfPax
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.Commentary
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.TrailName
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.freepax.ChildPaxDiscountTrail
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.freepax.PaxDiscountTrail
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.freepax.PaxDiscountTrails
+import com.example.rail.domain.model.faresystem.factor.passenger.*
 
 /**
  * 無料扱い乗客数
@@ -26,7 +27,7 @@ data class NumberOfFreePax(
     }
 
 
-    fun applyTo(numberOfPax: NumberOfPax): AppliedNumberOfPax {
+    fun applyTo(numberOfPax: NumberOfPax): Pair<AppliedNumberOfPax, PaxDiscountTrails> {
 
         check(this <= numberOfPax.allPax) { throw IllegalStateException("無料扱いの人数が想定外") }
 
@@ -36,10 +37,22 @@ data class NumberOfFreePax(
         //SPEC: 無料扱いは大人から適用していく
         return (numberOfAdults - this).let {
             if (it >= 0) {
-                AppliedNumberOfPax(adults = it, children = AppliedNumberOfChildren(numberOfChildren))
+                Pair(
+                        AppliedNumberOfPax(adults = it, children = AppliedNumberOfChildren(numberOfChildren)),
+                        PaxDiscountTrails(
+                                PaxDiscountTrail.adultPaxDiscountTrail(TrailName("団体割引"), Commentary("無料扱い"), this.value),
+                                ChildPaxDiscountTrail.nothing
+                        )
+                )
             }
             else {
-                AppliedNumberOfPax(adults = AppliedNumberOfAdults.ZERO, children = numberOfChildren + it)
+                Pair(
+                        AppliedNumberOfPax(adults = AppliedNumberOfAdults.ZERO, children = numberOfChildren + it),
+                        PaxDiscountTrails(
+                                PaxDiscountTrail.adultPaxDiscountTrail(TrailName("団体割引"), Commentary("無料扱い"), numberOfAdults.value),
+                                PaxDiscountTrail.childPaxDiscountTrail(TrailName("団体割引"), Commentary("無料扱い"), it.absolute.value)
+                        )
+                )
             }
         }
     }

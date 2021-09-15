@@ -82,13 +82,13 @@ data class BasicFareCalculator(
 
     fun calculate(): Pair<AdultBasicFare, ChildBasicFare> {
 
-        val accumulatedAmount = accumulateAmount {
+        val (accumulatedAmount, discountTrails) = accumulateAmount {
             accumulate(derived.basicFare)
             accumulate(derived.roundTripDiscount)
             accumulate(derived.groupIndividualDiscount)
         }
 
-        val adultBasicFare = AdultBasicFare(accumulatedAmount.roundedJpMoney, factor.tripType)
+        val adultBasicFare = AdultBasicFare(accumulatedAmount.roundedJpMoney, factor.tripType, discountTrails)
         val childBasicFare = ChildBasicFare.createFrom(adultBasicFare)
 
         return adultBasicFare to childBasicFare

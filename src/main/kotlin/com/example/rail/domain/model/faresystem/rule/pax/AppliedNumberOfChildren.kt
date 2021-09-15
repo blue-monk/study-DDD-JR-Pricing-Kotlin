@@ -16,7 +16,6 @@ data class AppliedNumberOfChildren(
 
     constructor(numberOfChildren: NumberOfChildren) : this(numberOfChildren.value)
 
-    override fun toString(): String {
-        return NumberOfPassengerFormatter.format(value)
-    }
+
+    val displayString: String = NumberOfPassengerFormatter.format(value)
 }

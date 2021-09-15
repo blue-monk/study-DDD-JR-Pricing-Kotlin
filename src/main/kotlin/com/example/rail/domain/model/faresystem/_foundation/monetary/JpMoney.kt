@@ -37,6 +37,8 @@ data class JpMoney private constructor(
 
     val isZero: Boolean = value == BigDecimal.ZERO
 
+    val sign: Sign = Sign.of(value.signum())
+
 
     fun truncatedInUnitsOf10yen(): JpMoney {
         return truncatedInUnitsOf10yen(value)

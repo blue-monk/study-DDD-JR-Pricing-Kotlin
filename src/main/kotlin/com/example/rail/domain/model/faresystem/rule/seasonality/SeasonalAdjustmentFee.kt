@@ -1,11 +1,16 @@
 package com.example.rail.domain.model.faresystem.rule.seasonality
 
-import com.example.rail.domain.model.faresystem.pricing.seasonality.SeasonType
-import com.example.rail.domain.model.faresystem._foundation.monetary.amount.FareAmount
 import com.example.rail.domain.model.faresystem._foundation.monetary.accumulation.AccumulatableAmount
+import com.example.rail.domain.model.faresystem._foundation.monetary.amount.FareAmount
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.Commentary
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.TrailName
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.FareType
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.MonetaryDiscountTrail
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.SignRequisition
 import com.example.rail.domain.model.faresystem.factor.date.DepartureDate
 import com.example.rail.domain.model.faresystem.factor.equipment.SeatType
 import com.example.rail.domain.model.faresystem.pricing.seasonality.SeasonDef
+import com.example.rail.domain.model.faresystem.pricing.seasonality.SeasonType
 
 /**
  * 季節性調整料金
@@ -43,4 +48,10 @@ data class SeasonalAdjustmentFee(
             SeatType.Reserved    -> seasonType.seasonalityAmount
         }
     }
+
+    override val discountTrail: MonetaryDiscountTrail
+        get() = if (amount.isZero)
+            MonetaryDiscountTrail.nothing()
+        else
+            MonetaryDiscountTrail.trail(name = TrailName(seasonType.displayName), commentary = Commentary("適用済み"), value = FareType(amount), signRequisition = SignRequisition.Yes)
 }

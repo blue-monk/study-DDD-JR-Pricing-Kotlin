@@ -1,6 +1,7 @@
 package com.example.rail.domain.model.faresystem._foundation.monetary.accumulation
 
 import com.example.rail.domain.model.faresystem._foundation.monetary.amount.AmountOfMoney
+import com.example.rail.domain.model.faresystem._foundation.monetary.trail.amount.MonetaryDiscountTrail
 
 /**
  * 累算可能な料金
@@ -35,4 +36,6 @@ interface AccumulatableAmount<T> where T : AmountOfMoney, T : Accumulatable {
 
     val operation: Accumulatable.Operation
         get() = amount.operation
+
+    val discountTrail: MonetaryDiscountTrail
 }
