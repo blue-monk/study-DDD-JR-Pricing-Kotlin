@@ -2,7 +2,7 @@
 # jr-pricing in Kotlin
 
 
-[![Kotlin Version](https://img.shields.io/badge/Kotlin-1.5.21-brightgreen)]()
+[![Kotlin Version](https://img.shields.io/badge/Kotlin-1.5.21-blue)](https://github.com/blue-monk/study-DDD-JR-Pricing-Kotlin/tree/quest/refactor-pricing-by-route)
 
 
 ## Table of Contents
